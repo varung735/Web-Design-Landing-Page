@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-div{
+    background: url('../images/backcover.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 340px -800px;
+    padding-top: 2%;
+}
+
+/* Styles for navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nav-items{
+    font-family: 'Roboto', sans-serif;
+}
+
+.signin-btn{
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+/* Styles for intro section */
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.learn-more-btn{
+        width: 100px;
+        height: 20px;
+        border: none;
+        border-radius: 50px;
+}
+
+img[alt="intro-img"]{
+    height: 80%;
+    position: relative;
+    top: -13%;
+    left: -5%;
+}
+
+.vector-img{
+    position: relative;
+    top: 50%;
+    left: -10%;
+}
+
+.vector-dot{
+    position: relative;
+    top: 40%;
+    left: -15%;
+}
